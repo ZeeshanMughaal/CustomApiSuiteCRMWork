@@ -1,4 +1,4 @@
-Setup Instructions for this Project (After Pulling Updates):
+# **Setup Instructions for this Project (After Pulling Updates):**
 
 After pulling any updates, always run npm install in the project root to make sure all dependencies are installed.
 
