@@ -1,12 +1,9 @@
-# React + Vite
+Setup Instructions for this Project (After Pulling Updates):
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+After pulling any updates, always run npm install in the project root to make sure all dependencies are installed.
 
-Currently, two official plugins are available:
+Go to SuiteCRM → Services and set up your backend, including the metadata files.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In the React app, go to Services and set your project path to the correct SuiteCRM backend path.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+After completing the above steps, run the project — it should work correctly with your backend.
